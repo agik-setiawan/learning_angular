@@ -1,0 +1,13 @@
+<div class="p-6">
+    <p class="text-red-500">{{ nama | uppercase }}</p>
+
+    <div class="mt-4">
+        <input class="border-1" type="text" name="nama" [(ngModel)]="nama">
+    </div>
+
+    <div class="mt-4">
+        <button (click)="testEvent()"
+            class="py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-red-800">Button
+            TailwindCSS</button>
+    </div>
+</div>
